@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 150%;
+}
+body{
+    /* background-color: gray; */
+    background-image: url(images/galaxy.jpg);
+    background-size: cover;
+}
+
+
+.sun {
+    /* border: 2px solid red; */
+    position: relative;
+    width: 300px;
+    left: 600px;
+    top: 300px;
+}
+.mercury{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 150px;
+    right: 190px;
+}
+
+.venus{
+     position: absolute;
+    border: 2px solid yellow;
+    width: 300px;
+    right: 200px;
+    bottom: 330px;
+
+}
